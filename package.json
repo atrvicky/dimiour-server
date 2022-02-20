@@ -1,0 +1,44 @@
+{
+  "name": "dimiour",
+  "version": "1.0.0",
+  "description": "the server code for dimiour life coach application",
+  "main": "server.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node -r dotenv/config server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atrvicky/dimiour_server.git"
+  },
+  "author": "mk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atrvicky/dimiour_server/issues"
+  },
+  "homepage": "https://github.com/atrvicky/dimiour_server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bull": "^4.5.5",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-error": "0.0.2",
+    "firebase-admin": "^10.0.2",
+    "json2csv": "^5.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "luxon": "^1.28.0",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.0",
+    "mongoutil": "^1.0.1",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.2",
+    "sanitize": "^2.1.0",
+    "validator": "^13.7.0",
+    "winston": "^3.3.3"
+  }
+}
